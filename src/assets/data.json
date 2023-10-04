@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "nombre": "Producto 1",
+      "estado": "Nuevo",
+      "precio": 100,
+      "cantidad": 10,
+      "descripcion": "Descripción del Producto 1",
+      "precioEnvio": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Producto 2",
+      "estado": "Usado",
+      "precio": 50,
+      "cantidad": 5,
+      "descripcion": "Descripción del Producto 2",
+      "precioEnvio": 3
+    },
+    {
+      "id": 3,
+      "nombre": "Producto 3",
+      "estado": "Nuevo",
+      "precio": 120,
+      "cantidad": 8,
+      "descripcion": "Descripción del Producto 3",
+      "precioEnvio": 7
+    }
+]
+  

@@ -1,0 +1,92 @@
+[
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Tamaño",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1001,
+    "ESTADO": null,
+    "Descripcion": "Color",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1002,
+    "ESTADO": null,
+    "Descripcion": "Material",
+    "IDCategoria": 1000
+  },
+  {
+    "ID": 1003,
+    "ESTADO": null,
+    "Descripcion": "Estilo",
+    "IDCategoria": 1001
+  },
+  {
+    "ID": 1004,
+    "ESTADO": null,
+    "Descripcion": "Talla",
+    "IDCategoria": 1001
+  },
+  {
+    "ID": 1005,
+    "ESTADO": null,
+    "Descripcion": "Temporada",
+    "IDCategoria": 1001
+  },
+  {
+    "ID": 1006,
+    "ESTADO": null,
+    "Descripcion": "Material",
+    "IDCategoria": 1002
+  },
+  {
+    "ID": 1007,
+    "ESTADO": null,
+    "Descripcion": "Uso",
+    "IDCategoria": 1002
+  },
+  {
+    "ID": 1008,
+    "ESTADO": null,
+    "Descripcion": "Tipo",
+    "IDCategoria": 1003
+  },
+  {
+    "ID": 1009,
+    "ESTADO": null,
+    "Descripcion": "Edad recomendada",
+    "IDCategoria": 1004
+  }
+]

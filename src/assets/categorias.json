@@ -1,0 +1,27 @@
+[
+  {
+    "ID": 1000,
+    "ESTADO": null,
+    "Descripcion": "Electrónica"
+  },
+  {
+    "ID": 1001,
+    "ESTADO": null,
+    "Descripcion": "Moda"
+  },
+  {
+    "ID": 1002,
+    "ESTADO": null,
+    "Descripcion": "Hogar y Jardín"
+  },
+  {
+    "ID": 1003,
+    "ESTADO": null,
+    "Descripcion": "Deportes"
+  },
+  {
+    "ID": 1004,
+    "ESTADO": null,
+    "Descripcion": "Juguetes"
+  }
+]
