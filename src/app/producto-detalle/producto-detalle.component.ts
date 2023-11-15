@@ -10,7 +10,6 @@ import { Location } from '@angular/common';
 export class ProductoDetalleComponent {
   producto: any[] = [];
   precioProducto: number = 0;
-  precioEnvio: number = 0;
   cantidad = 1;
   total = 0;
   constructor(private http: HttpClient, private location: Location) {
@@ -21,7 +20,6 @@ export class ProductoDetalleComponent {
     this.http.get('assets/data.json').subscribe((data: any) => {
       this.producto = data;
       this.precioProducto = this.producto[0].precio;
-      this.precioEnvio = this.producto[0].precioEnvio;
       this.actualizarTotal();
     });
   }
@@ -29,12 +27,17 @@ export class ProductoDetalleComponent {
   comprar(){
     console.log("hola amigos de youtube")
   }
+
+  cancelar(){
+    this.location.back();
+  }
+
   volverAtras() {
     this.location.back();
   }
   
   actualizarTotal() {
-    this.total = this.precioProducto * this.cantidad + this.precioEnvio;
+    this.total = this.precioProducto * this.cantidad;
   }
 
 }

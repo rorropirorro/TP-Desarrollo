@@ -1,15 +1,14 @@
 <div class="producto-detalle">
-  <button id="botonVolver">⮲</button>
   <div class="imagen-y-compra">
     <div class="imagen">
-      <img [src]= "'assets/xd.jpg'" alt="Imagen del producto">
+      <img [src]= "'assets/negro de wpp.jpg'" alt="Imagen del producto">
     </div>
     <div class="datos-compra">
       <p>Precio: ${{ producto[0].precio }}</p>
       <p>Cantidad: <input type="number" [(ngModel)]="cantidad" (input)="actualizarTotal()" min="1" style="border-radius: 8px; text-align: center; width: 40px; "></p>
-      <p>Precio de envío: ${{ producto[0].precioEnvio }}</p>
       <p>Total: ${{ total }}</p>
-      <button (click)="comprar()">Comprar</button>
+      <button style="float: left;" (click)="comprar()">Agregar</button>
+      <button style="float: right;" (click)="cancelar()">Cancelar</button>
     </div>
   </div>
     <div class="info-producto">
